@@ -49,6 +49,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.resetBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.carblue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Do1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Xanh1)).BeginInit();
@@ -68,9 +69,10 @@
             // nopeterson
             // 
             this.nopeterson.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nopeterson.Location = new System.Drawing.Point(48, 338);
+            this.nopeterson.Location = new System.Drawing.Point(32, 220);
+            this.nopeterson.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nopeterson.Name = "nopeterson";
-            this.nopeterson.Size = new System.Drawing.Size(153, 39);
+            this.nopeterson.Size = new System.Drawing.Size(102, 25);
             this.nopeterson.TabIndex = 9;
             this.nopeterson.UseVisualStyleBackColor = false;
             this.nopeterson.Click += new System.EventHandler(this.nopeterson_Click);
@@ -80,9 +82,10 @@
             this.PCPink.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PCPink.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PCPink.ForeColor = System.Drawing.Color.Fuchsia;
-            this.PCPink.Location = new System.Drawing.Point(48, 383);
+            this.PCPink.Location = new System.Drawing.Point(32, 249);
+            this.PCPink.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PCPink.Name = "PCPink";
-            this.PCPink.Size = new System.Drawing.Size(153, 39);
+            this.PCPink.Size = new System.Drawing.Size(102, 25);
             this.PCPink.TabIndex = 10;
             this.PCPink.Text = "Car Pink (PC0)";
             this.PCPink.UseVisualStyleBackColor = false;
@@ -93,9 +96,10 @@
             this.cahai.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.cahai.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cahai.ForeColor = System.Drawing.Color.Fuchsia;
-            this.cahai.Location = new System.Drawing.Point(48, 472);
+            this.cahai.Location = new System.Drawing.Point(32, 307);
+            this.cahai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cahai.Name = "cahai";
-            this.cahai.Size = new System.Drawing.Size(153, 36);
+            this.cahai.Size = new System.Drawing.Size(102, 23);
             this.cahai.TabIndex = 15;
             this.cahai.Text = "ALL";
             this.cahai.UseVisualStyleBackColor = false;
@@ -106,9 +110,10 @@
             this.blue.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.blue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blue.ForeColor = System.Drawing.Color.Fuchsia;
-            this.blue.Location = new System.Drawing.Point(48, 428);
+            this.blue.Location = new System.Drawing.Point(32, 278);
+            this.blue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.blue.Name = "blue";
-            this.blue.Size = new System.Drawing.Size(153, 38);
+            this.blue.Size = new System.Drawing.Size(102, 25);
             this.blue.TabIndex = 16;
             this.blue.Text = "Car Blue (PC1)";
             this.blue.UseVisualStyleBackColor = false;
@@ -118,9 +123,10 @@
             // 
             this.carblue.BackColor = System.Drawing.Color.Transparent;
             this.carblue.Image = global::HDH_WIN.Properties.Resources.car_removebg_preview;
-            this.carblue.Location = new System.Drawing.Point(374, 493);
+            this.carblue.Location = new System.Drawing.Point(249, 320);
+            this.carblue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.carblue.Name = "carblue";
-            this.carblue.Size = new System.Drawing.Size(54, 81);
+            this.carblue.Size = new System.Drawing.Size(36, 53);
             this.carblue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carblue.TabIndex = 19;
             this.carblue.TabStop = false;
@@ -130,9 +136,10 @@
             this.Do1.BackColor = System.Drawing.SystemColors.WindowText;
             this.Do1.BackgroundImage = global::HDH_WIN.Properties.Resources.Untitled;
             this.Do1.Image = global::HDH_WIN.Properties.Resources.red1_removebg_preview;
-            this.Do1.Location = new System.Drawing.Point(495, 350);
+            this.Do1.Location = new System.Drawing.Point(330, 227);
+            this.Do1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Do1.Name = "Do1";
-            this.Do1.Size = new System.Drawing.Size(36, 37);
+            this.Do1.Size = new System.Drawing.Size(24, 24);
             this.Do1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Do1.TabIndex = 14;
             this.Do1.TabStop = false;
@@ -142,9 +149,10 @@
             // 
             this.Xanh1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Xanh1.Image = global::HDH_WIN.Properties.Resources.Eo_circle_green_blank1;
-            this.Xanh1.Location = new System.Drawing.Point(495, 306);
+            this.Xanh1.Location = new System.Drawing.Point(330, 199);
+            this.Xanh1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Xanh1.Name = "Xanh1";
-            this.Xanh1.Size = new System.Drawing.Size(36, 38);
+            this.Xanh1.Size = new System.Drawing.Size(24, 25);
             this.Xanh1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Xanh1.TabIndex = 13;
             this.Xanh1.TabStop = false;
@@ -154,9 +162,10 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(459, 293);
+            this.pictureBox6.Location = new System.Drawing.Point(306, 190);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(111, 117);
+            this.pictureBox6.Size = new System.Drawing.Size(74, 76);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
@@ -165,9 +174,10 @@
             // 
             this.Bum.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Bum.Image = ((System.Drawing.Image)(resources.GetObject("Bum.Image")));
-            this.Bum.Location = new System.Drawing.Point(327, 175);
+            this.Bum.Location = new System.Drawing.Point(218, 114);
+            this.Bum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Bum.Name = "Bum";
-            this.Bum.Size = new System.Drawing.Size(118, 109);
+            this.Bum.Size = new System.Drawing.Size(79, 71);
             this.Bum.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Bum.TabIndex = 11;
             this.Bum.TabStop = false;
@@ -178,9 +188,10 @@
             // 
             this.carpink.BackColor = System.Drawing.Color.Transparent;
             this.carpink.Image = global::HDH_WIN.Properties.Resources.cảpink_removebg_preview;
-            this.carpink.Location = new System.Drawing.Point(23, 216);
+            this.carpink.Location = new System.Drawing.Point(15, 140);
+            this.carpink.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.carpink.Name = "carpink";
-            this.carpink.Size = new System.Drawing.Size(100, 47);
+            this.carpink.Size = new System.Drawing.Size(67, 31);
             this.carpink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carpink.TabIndex = 8;
             this.carpink.TabStop = false;
@@ -189,9 +200,10 @@
             // 
             this.Xanh.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Xanh.Image = global::HDH_WIN.Properties.Resources.Eo_circle_green_blank2;
-            this.Xanh.Location = new System.Drawing.Point(251, 50);
+            this.Xanh.Location = new System.Drawing.Point(167, 32);
+            this.Xanh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Xanh.Name = "Xanh";
-            this.Xanh.Size = new System.Drawing.Size(35, 40);
+            this.Xanh.Size = new System.Drawing.Size(23, 26);
             this.Xanh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Xanh.TabIndex = 4;
             this.Xanh.TabStop = false;
@@ -200,9 +212,10 @@
             // 
             this.Do.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Do.Image = global::HDH_WIN.Properties.Resources.red1_removebg_preview1;
-            this.Do.Location = new System.Drawing.Point(251, 96);
+            this.Do.Location = new System.Drawing.Point(167, 62);
+            this.Do.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Do.Name = "Do";
-            this.Do.Size = new System.Drawing.Size(35, 35);
+            this.Do.Size = new System.Drawing.Size(23, 23);
             this.Do.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Do.TabIndex = 3;
             this.Do.TabStop = false;
@@ -211,9 +224,10 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::HDH_WIN.Properties.Resources.traffic_light2;
-            this.pictureBox3.Location = new System.Drawing.Point(217, 37);
+            this.pictureBox3.Location = new System.Drawing.Point(145, 24);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(102, 121);
+            this.pictureBox3.Size = new System.Drawing.Size(68, 79);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -224,9 +238,10 @@
             this.label1.CausesValidation = false;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepPink;
-            this.label1.Location = new System.Drawing.Point(341, 175);
+            this.label1.Location = new System.Drawing.Point(227, 114);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 88);
+            this.label1.Size = new System.Drawing.Size(69, 57);
             this.label1.TabIndex = 20;
             this.label1.Text = "Critical Region";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -238,9 +253,10 @@
             this.label3.CausesValidation = false;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DeepPink;
-            this.label3.Location = new System.Drawing.Point(327, 9);
+            this.label3.Location = new System.Drawing.Point(218, 6);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 65);
+            this.label3.Size = new System.Drawing.Size(87, 42);
             this.label3.TabIndex = 22;
             this.label3.Text = "NonCritical Region";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -251,9 +267,10 @@
             this.label2.CausesValidation = false;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DeepPink;
-            this.label2.Location = new System.Drawing.Point(99, 198);
+            this.label2.Location = new System.Drawing.Point(66, 129);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 65);
+            this.label2.Size = new System.Drawing.Size(83, 42);
             this.label2.TabIndex = 23;
             this.label2.Text = "NonCritical Region";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -264,9 +281,10 @@
             this.label4.CausesValidation = false;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DeepPink;
-            this.label4.Location = new System.Drawing.Point(339, 401);
+            this.label4.Location = new System.Drawing.Point(226, 261);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 65);
+            this.label4.Size = new System.Drawing.Size(79, 42);
             this.label4.TabIndex = 24;
             this.label4.Text = "NonCritical Region";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -277,21 +295,35 @@
             this.label5.CausesValidation = false;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DeepPink;
-            this.label5.Location = new System.Drawing.Point(573, 198);
+            this.label5.Location = new System.Drawing.Point(382, 129);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 65);
+            this.label5.Size = new System.Drawing.Size(79, 42);
             this.label5.TabIndex = 25;
             this.label5.Text = "NonCritical Region";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // resetBtn
+            // 
+            this.resetBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.resetBtn.Location = new System.Drawing.Point(32, 334);
+            this.resetBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.resetBtn.Name = "resetBtn";
+            this.resetBtn.Size = new System.Drawing.Size(102, 25);
+            this.resetBtn.TabIndex = 26;
+            this.resetBtn.Text = "Reset";
+            this.resetBtn.UseVisualStyleBackColor = false;
+            this.resetBtn.Click += new System.EventHandler(this.resetBtn_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(801, 586);
+            this.ClientSize = new System.Drawing.Size(534, 381);
+            this.Controls.Add(this.resetBtn);
             this.Controls.Add(this.carblue);
             this.Controls.Add(this.blue);
             this.Controls.Add(this.cahai);
@@ -312,6 +344,7 @@
             this.Controls.Add(this.label3);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.SteelBlue;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.Color.Red;
@@ -348,6 +381,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button resetBtn;
     }
 }
 

@@ -177,6 +177,11 @@ namespace HDH_WIN
         {
 
         }
-      
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            this.InitializeComponent();
+        }
     }
 }
